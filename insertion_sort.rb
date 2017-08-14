@@ -13,7 +13,8 @@ def insertion_sort(arr)
 		puts "#{arr} -- iteration ##{i + 1} after insert\n\n"
 	end
 
-	puts "Fully sorted array! -- #{arr}"
+	puts "Fully sorted array! -- #{arr}\n\n"
 end
 
 insertion_sort([5, 2, 4, 6, 1, 3])
+insertion_sort([31, 41, 59, 26, 41, 58])
